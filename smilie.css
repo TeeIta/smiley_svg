@@ -1,0 +1,74 @@
+.Smile {
+    background: #ffff33;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    position: relative;
+    left: 400px;
+    top: 60px;
+}
+
+.eye_1 {
+    position: relative;
+    width: 30px;
+    height: 70px;
+    background: black;
+    border-radius: 50%;
+    margin-top: -250px;
+    left: 550px;
+}
+
+.eye_2 {
+    position: relative;
+    width: 30px;
+    height: 70px;
+    background: black;
+    border-radius: 50%;
+    margin-top: -70px;
+    left: 700px;
+}
+
+.smile {
+    position: relative;
+    background: black;
+    width: 250px;
+    height: 100px;
+    left: 515px;
+    top: 70px;
+    border-bottom-right-radius: 900px;
+    border-bottom-left-radius: 900px;
+}
+
+.smile_asst {
+    position: relative;
+    width: 260px;
+    height: 90px;
+    background: #ffff33;
+    border-bottom-left-radius: 900px;
+    border-bottom-right-radius: 900px;
+    left: 510px;
+    top: -60px;
+}
+
+.tear_drop {
+    position: relative;
+    width: 40px;
+    height: 80px;
+    background: skyblue;
+    left: 540px;
+    top: -180px;
+    border-bottom-left-radius: 900px;
+    border-bottom-right-radius: 900px;
+    border-top-right-radius: 900px;
+    border-top-left-radius: 900px;
+    animation-name: cry;
+}
+
+@keyframes cry {
+    from {
+        transform: translateX(-180px);
+    }
+    to {
+        transform: translateX(500px);
+    }
+}
